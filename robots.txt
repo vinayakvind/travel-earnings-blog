@@ -1,0 +1,31 @@
+# robots.txt for Budget Travel India Blog
+# This file tells search engines how to crawl the website
+
+# Allow all search engines to crawl all pages
+User-agent: *
+Allow: /
+
+# Sitemap location (helps search engines find all pages)
+Sitemap: https://vinayakvind.github.io/travel-earnings-blog/sitemap.xml
+
+# Crawl-delay (optional - prevents overloading server)
+# Not needed for GitHub Pages but good practice
+Crawl-delay: 1
+
+# Disallow crawling of any potential admin or private areas
+# (none exist yet, but this is standard practice)
+Disallow: /private/
+Disallow: /admin/
+
+# Allow crawling of CSS and JavaScript files
+# (helps Google understand page rendering)
+Allow: /*.css$
+Allow: /*.js$
+
+# AdSense crawl permission
+User-agent: Mediapartners-Google
+Allow: /
+
+# AdsBot permission for ad quality checks
+User-agent: AdsBot-Google
+Allow: /
